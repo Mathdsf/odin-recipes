@@ -1,0 +1,89 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header {
+    padding: 20px 140px;
+    background-color: rgb(247, 181, 105);
+    color: #F9FAF8;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    gap: 50px;
+}
+
+.content article {
+    width: 300px;
+    background-color: rgb(255, 151, 82); 
+    flex-shrink: 0;
+}
+
+.containerecipes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 50px 20px;
+    justify-content: center;
+}
+
+.content .recipes {
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 16px;
+}
+
+.contenttext {
+    flex: 1;
+    margin: 0;
+    font-size: 18px;
+    color: #1F2937;
+    padding: 8px;
+}
+
+.content div h2 {
+    background-color: rgb(224, 224, 224);
+    margin: 0;
+    padding: 16px 32px;
+    text-align: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.content div .view {
+    background-color: #3882F6;
+    margin: 0;
+    padding: 16px 32px;
+    text-align: center;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #3882F6;
+}
+
+footer {
+    font-size: 18px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(247, 181, 105);
+}
+
+
